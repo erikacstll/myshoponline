@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import NavBar from "./components/NavBar/NavBar"
+import NavBar from "./components/NavBar/NavBar";
+import CarWidget from "./components/CarWidget/CarWidget";
+import Index from "./components/Index";
+
 
 function App() {
   return (
