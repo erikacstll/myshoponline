@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar";
 import CarWidget from "./components/CarWidget/CarWidget";
-import Index from "./components/Index";
+import Index from "./components";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
