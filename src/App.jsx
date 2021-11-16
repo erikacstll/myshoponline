@@ -1,13 +1,13 @@
-import './App.css';
 import NavBar from "./components/NavBar/NavBar";
 import CarWidget from "./components/CarWidget/CarWidget";
 import Index from "./components";
-import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 
 
 function App() {
-    return ( <div >
-        <div >
+    return ( <div>
+        <div>
         <NavBar/>
         </div>
 
@@ -23,7 +23,7 @@ function App() {
 
         }
 
-        function ItemCount(monitor) {
+function ItemCount(monitor) {
             stock = "9", initial = "1"
 
         } </main> 

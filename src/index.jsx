@@ -4,17 +4,18 @@ import Button from '@mui/material/Button';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme';
 
-function App() {
-    return <Button variant = "contained" > Hello World </Button>;
-}
-
-ReactDOM.render( <React.StrictMode> 
-    <App/> 
-    </React.StrictMode>,
-    document.getElementById('root')
+ReactDOM.render(
+  <ThemeProvider theme={theme}>
+    {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+    <CssBaseline />
+    <App />
+  </ThemeProvider>,
+  document.querySelector('#root'),
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
